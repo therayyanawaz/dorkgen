@@ -12,10 +12,15 @@ banner = Fore.YELLOW + """
 """
 
 def dork():
+    """
+    This function prints a banner, takes an input from the user,
+    and writes it to a file named 'Dork_Result_{input}.txt'.
+    """
     print(banner)
     world = input("Enter your word for the dork : ")
     with open(f"Dork_Result_{world}.txt", "w") as resultfile:
         resultfile.write(f"""--------------------
+
 dork list :
 1. "{world}"
 2. intitle:"{world}"
