@@ -114,7 +114,7 @@ dork list :
     time.sleep(1)  # import time
     os.system('cls')
     dork()
- 
+
 
 
 if __name__ == "__main__":
