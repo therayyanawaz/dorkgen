@@ -115,7 +115,5 @@ dork list :
     os.system('cls')
     dork()
 
-
-
 if __name__ == "__main__":
     dork()
