@@ -1,4 +1,4 @@
-import os, time, colorama
+import os, time
 from colorama import Fore
 
 banner = Fore.YELLOW + """
